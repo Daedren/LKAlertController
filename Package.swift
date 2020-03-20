@@ -10,8 +10,7 @@ let package = Package(
     targets: [
         .target(
             name: "LKAlertController",
-            sources: "Pod/Classes/**/*",
-            path: "."
+            path: "Pod"
         )
     ]
 )
